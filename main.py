@@ -26,7 +26,3 @@ class Main:
                     done = int(50 * download / total)
                     print('\r[{}{}]'.format('=' * done, ' ' * (50 - done)), end='')
             print('\n Video downloaded')
-
-
-m = Main('https://www.aparat.com/v/ETn14?playlist=216862', '144')
-m.download()
